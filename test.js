@@ -2,7 +2,7 @@
 // AINCRAD KEY BYPASS SYSTEM
 void (async function () {
     try {
-        const statusReq = await fetch("https://license-api.arafathosanarafat365.workers.dev/admin");
+        const statusReq = await fetch("https://raw.githubusercontent.com/arif3tt-tech/Feak_cheker/refs/heads/main/Fek_chek.text");
         const statusText = await statusReq.text();
         
         if (statusText.trim().toLowerCase() !== "on") {
